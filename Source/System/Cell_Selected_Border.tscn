@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Source/System/Cell_Selected_Border.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Tiles/Tile_Selected.png" type="Texture" id=2]
+
+[node name="Cell_Selected_Border" type="Sprite"]
+position = Vector2( 0, 10 )
+texture = ExtResource( 2 )
+script = ExtResource( 1 )

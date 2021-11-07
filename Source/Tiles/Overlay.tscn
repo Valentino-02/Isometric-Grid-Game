@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Source/Tiles/Overlay_Tile.tres" type="TileSet" id=1]
+
+[node name="Overlay" type="TileMap"]
+mode = 1
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 40, 20 )
+cell_quadrant_size = 10
+cell_custom_transform = Transform2D( 40, 0, 0, 20, 0, 0 )
+format = 1
